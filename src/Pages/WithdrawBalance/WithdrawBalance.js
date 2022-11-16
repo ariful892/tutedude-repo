@@ -3,11 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Friends from './Friends';
 import arrow from '../../assets/left-arrow.png';
+import { Link } from 'react-router-dom';
 
 const WithdrawBalance = () => {
     return (
         <div className='px-8 lg:px-44 pb-40 lg:pb-12'>
-            <p className='text-sm  py-8'>UI/UX <FontAwesomeIcon className='w-2 ml-1' icon={faGreaterThan}></FontAwesomeIcon> Refer & Earn <FontAwesomeIcon className='w-2 ml-1' icon={faGreaterThan}></FontAwesomeIcon> Friends Referred</p>
+            <Link to={'/'}><p className='text-sm  py-8'>UI/UX <FontAwesomeIcon className='w-2 ml-1' icon={faGreaterThan}></FontAwesomeIcon> Refer & Earn <FontAwesomeIcon className='w-2 ml-1' icon={faGreaterThan}></FontAwesomeIcon> Friends Referred</p></Link>
 
             <p className='font-bold text-lg text-primary mb-8 visible lg:hidden'><img className='w-4 inline mr-2 pb-1' src={arrow} alt="" /> go back</p>
 

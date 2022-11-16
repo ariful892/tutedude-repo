@@ -41,3 +41,8 @@
 * {
   font-family: 'Poppins';
 }
+
+.referral-code {
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #FF864C, #800080) 1;
+}

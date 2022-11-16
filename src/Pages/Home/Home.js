@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className='px-4 lg:px-48 pb-12'>
+        <div className='px-5 lg:px-48 pb-12'>
             <p className='text-sm  py-8'>UI/UX <FontAwesomeIcon className='w-2 ml-1' icon={faGreaterThan}></FontAwesomeIcon> Refer & Earn </p>
 
             {/* withdraw balance */}
@@ -34,7 +34,7 @@ const Home = () => {
 
                     <div className='pt-6 lg:pt-0 lg:ml-20 lg:mr-28 text-primary'>
                         <p className='text-primary font-bold text-xl'>Your Referral Code </p>
-                        <p className='px-12 py-2 border-2 border-primary rounded-lg mt-1'><span className='mr-5'>E</span><span className='mr-5'>D</span><span className='mr-5'>C</span><span className='mr-5'>H</span><span className='mr-5'>5</span><span>4</span></p>
+                        <p className='referral-code px-12 py-2 rounded-lg mt-1'><span className='mr-5'>E</span><span className='mr-5'>D</span><span className='mr-5'>C</span><span className='mr-5'>H</span><span className='mr-5'>5</span><span>4</span></p>
                     </div>
                 </div>
             </div>

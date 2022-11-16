@@ -6,15 +6,15 @@ import profile from '../../assets/profile.png';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-white pl-0 pr-3 lg:px-12 mt-8 lg:mt-0">
+        <div className="navbar bg-white pl-0 pr-8 lg:px-20 mt-8 lg:mt-0">
             <div className="flex-1">
-                <Link to={''} className="btn btn-ghost normal-case text-xl"><img className='w-28' src={logo} alt="" /></Link>
+                <Link to={'/'} className="btn btn-ghost normal-case text-xl"><img className='w-28' src={logo} alt="" /></Link>
             </div>
             <div className="flex-none ">
                 <ul className="menu menu-horizontal text-primary p-0">
-                    <li className='hidden lg:flex'><Link to={''}>My Assignment</Link></li>
+                    <li className='hidden lg:flex opacity-50'><Link to={''}>My Assignment</Link></li>
 
-                    <li className='hidden lg:flex'><Link to={''}>Chat with Mentor</Link></li>
+                    <li className='hidden lg:flex opacity-50'><Link to={''}>Chat with Mentor</Link></li>
                     <li tabIndex={0}>
                         <Link to={''} className='bg-primary lg:bg-white text-white lg:text-primary rounded-lg'>
                             <img className='w-4 hidden lg:flex' src={profile} alt="" />

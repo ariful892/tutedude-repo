@@ -7,12 +7,12 @@ import off from '../../assets/off.png';
 
 const HowWorks = () => {
     return (
-        <div className=' mt-10 lg:mr-32'>
+        <div className=' mt-10 lg:mr-48'>
             <h2 className='text-primary font-bold text-xl'>How does it work ?</h2>
             <div className='grid grid-cols-1 lg:grid-cols-2 justify-between mt-2'>
                 <div className='flex mt-5'>
-                    <div className='bg-gray-200 w-16 h-16 rounded-full flex justify-center items-center '>
-                        <img className='w-8' src={friends} alt="" />
+                    <div className='bg-gray-200 w-14 h-14 mt-2 rounded-full flex justify-center items-center '>
+                        <img className='w-6' src={friends} alt="" />
                     </div>
                     <div className='ml-4 w-64'>
                         <h2 className='font-bold text-lg'>Invite your Friends</h2>
@@ -21,7 +21,7 @@ const HowWorks = () => {
                     </div>
                 </div>
                 <div className='flex mt-5'>
-                    <div className='bg-gray-200 w-16 h-16 rounded-full flex justify-center items-center '>
+                    <div className='bg-gray-200 w-14 h-14 mt-2 rounded-full flex justify-center items-center '>
                         <img className='w-6' src={course} alt="" />
                     </div>
                     <div className='ml-4 w-64'>
@@ -30,7 +30,7 @@ const HowWorks = () => {
                     </div>
                 </div>
                 <div className='flex mt-5'>
-                    <div className='bg-gray-200 w-16 h-16 rounded-full flex justify-center items-center '>
+                    <div className='bg-gray-200 w-14 h-14 mt-2 rounded-full flex justify-center items-center '>
                         <img className='w-6 h-6' src={money} alt="" />
                     </div>
                     <div className='ml-4 w-64'>
@@ -39,7 +39,7 @@ const HowWorks = () => {
                     </div>
                 </div>
                 <div className='flex mt-5'>
-                    <div className='bg-gray-200 w-16 h-16 rounded-full flex justify-center items-center '>
+                    <div className='bg-gray-200 w-14 h-14 mt-2 rounded-full flex justify-center items-center '>
                         <img className='w-6 h-6' src={off} alt="" />
                     </div>
                     <div className='ml-4 w-64'>
@@ -48,7 +48,7 @@ const HowWorks = () => {
                     </div>
                 </div>
                 <div className='flex mt-5'>
-                    <div className='bg-gray-200 w-16 h-16 rounded-full flex justify-center items-center'>
+                    <div className='bg-gray-200 w-14 h-14 mt-2 rounded-full flex justify-center items-center'>
                         <img className='w-6 h-6' src={transfer} alt="" />
                     </div>
                     <div className='ml-4 w-64'>
